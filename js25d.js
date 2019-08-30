@@ -9,8 +9,12 @@ console.log(var1 + '\t' + var2 + '\t' + 'true'); //true, true, true
 
 var var1 = true;
 var var2 = false;
-console.log(var1 + '/t' + var2 + \t + 'true'); //true, false, true
+console.log(var1 + '\t' + var2 + '\t' + 'true'); //true, false, true
 
 var var1 = false;
 var var2 = true;
-console.log();
+console.log(var1 + '\t' + var2 + '\t' + 'true'); //false, true, true
+
+var var1 = false;
+var var2 = false;
+console.log(var1 + '\t' + var2 + '\t' + 'false'); //false, false, false
