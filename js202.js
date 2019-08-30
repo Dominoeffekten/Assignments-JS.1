@@ -1,7 +1,5 @@
 'use strict'
 
-var cpr = Number(prompt('Write your cpr'));
+var cpr = Number(prompt('Please, write your cpr'));
 
-women = true
-
-console.log(cpr);
+console.log('This is a woman: ' + (cpr%2 === 0));
